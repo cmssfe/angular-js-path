@@ -1,0 +1,9 @@
+https://sandywebdesigner.wordpress.com/2016/01/19/angularjs-service-value-and-constant-services/
+Value ServicesShorthand for factory with no parametersCannot be injected into a module configuration functionCan be overridden by an AngularJS decoratorExample using value angular.module('app')
+        .value('clientId', 'a12345654321x');
+Constant ServicesSimply registers service with injector, no factory/provider callsCan be injected into a module configuration functionCannot be overridden by an AngularJSdecoratorExampleangular.module('app')
+        .constant('constants', {
+            APP_TITLE: 'My App',
+            APP_DESCRIPTION: 'Description here.',
+            APP_VERSION: '0.0.1'
+        });
