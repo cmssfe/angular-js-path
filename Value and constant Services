@@ -7,3 +7,5 @@ Constant ServicesSimply registers service with injector, no factory/provider cal
             APP_DESCRIPTION: 'Description here.',
             APP_VERSION: '0.0.1'
         });
+        
+        2. <script src="https://gist.github.com/demisx/9605099.js"></script>
